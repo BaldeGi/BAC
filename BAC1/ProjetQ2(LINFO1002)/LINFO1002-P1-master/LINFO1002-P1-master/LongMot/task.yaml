@@ -1,0 +1,43 @@
+accessible: true
+author: Balde Lamarana , Diallo Ibrahima, Gautier Bertrand
+categories: []
+contact_url: ''
+context: Ecrivez une fonction qui retourne le plus grand mot dans une chaîne de caractère.
+environment_id: pyjavacpp
+environment_parameters:
+    limits:
+        memory: '100'
+        hard_time: ''
+        time: '30'
+    run_cmd: ''
+environment_type: docker
+evaluate: best
+file: ''
+groups: false
+input_random: '0'
+name: Le Plus Long Mot Dans Une Chaîne ce Caractère
+network_grading: false
+problems:
+    q1:
+        language: python
+        name: Plus Long Mot
+        header: |
+            .. code-block:: python
+
+                Pour "Paul est un grand sportif" , la fonction devra retourner: sportif
+
+            .. code-block:: python
+
+                def PlusLongMot(chaine):
+                    """
+                    @pre:La fonction prend chaîne de caratère en paramètre qui peut être vide ou non.
+                    @post: Si la chaine n'est pas vide retourne le plus long mot de la chaine
+                           Sinon retourne une liste vide
+                    """
+        default: ''
+        type: code
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+weight: 1.0

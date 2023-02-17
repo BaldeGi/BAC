@@ -1,0 +1,292 @@
+
+
+===========================================================================
+                        LINFO1002-2020 Review #64A
+---------------------------------------------------------------------------
+                         Paper #64: Projet 1 (B8)
+---------------------------------------------------------------------------
+
+        Les énoncés des exercices: 2. Contiennent quelques
+                                        erreurs/imprécisions
+                Les tests unitaires: 2. Fonctionnent pour certains
+                                        exercices mais pas tous
+Le code python de la suite de tests: 4. Est clair et compréhensible
+        La diversité des exercices: 2. Deux des trois exercices portent
+                                        sur la même partie de la matière
+              Appréciation globale: 1. Le travail global est insuffisant,
+                                        il mérite une cote inférieure à
+                                        10
+
+                 ===== Commentaires pour les auteurs =====
+
+Le nombre d’exercices proposés par ce groupe est au nombre de 5 dont 3 sont identiques (Abs1, Abs2 et Abs3).
+Lorsque les reviews ont été attribuée le 2 mars, seuls les exercices Abs1, Abs2 et Abs 3 étaient visibles. Quelques jours après, les exercices « Calcul average » et « Trouver la valeur entière » ont été mis en ligne.
+
+EXERCICE 1:
+
+Abs1 n’a pas été correctement implémenté. Lorsqu’une soumission est introduite, une erreur s’affiche à l’écran : « Une erreur interne s’est produite, no feedback was given! »
+
+Abs2 et Abs3 étant identiques, le code et les tests sont identiques.
+Les énoncés sont compréhensibles, on sait ce que l’auteur s’attend à recevoir mais le contexte est un peu abstrait.
+Quelques petites fautes de grammaire sont présentes (un « de » qui manque dans l’énoncé de Abs2, des majuscules en début de phrase, fautes de frappe, ...).
+Les spécifications sont absentes ainsi que quelques exemples.
+
+Le fichier contenant le code et le fichier contenant l’ensemble des tests n’ont pas été transmis, je ne peux donc pas les évaluer « en profondeur ». Je ne peux me baser que sur le retour que me fourni INGInious lors de ma soumission.
+
+Lorsque je soumets une solution correcte, la soumission passe tous les tests.
+Lorsqu’une erreur est commise dans la soumission, un feed-back est retourné. Celui-ci aide à voir où se trouve l’erreur. Il est clair et constructif.
+
+Il me semble que ces exercices sont un copié-collé de l’exemple fourni dans le syllabus du cours.
+
+Je ne peux pas donner un avis sur le second niveau d’analyse. Les fichiers nécessaires n’ont pas été transmis dans l’archive ZIP.
+
+EXERCICE 2:
+
+Calcul average n’a pas été correctement implémenté. En effet, lorsque j’essaie d’introduire du code dans le cadre de soumission, mon code n’est pas reconnu (à mon avis un petit problème de code-block dans votre création de l’exercice ou un oubli de spécification du type de langage utilisé (ceci se trouve dans la catégorie « sous-problèmes » dans l’édition des exercices)).
+Une erreur m’est alors retournée.
+
+L’énoncé laisse entendre ce dont il va nous être demandé de faire, mais il manque clairement quelques détails (Calculer la moyenne de quoi ? Une liste de quoi ?, ...).
+Il y a présence d’une faute d’orthographe dans le titre de l’exercice. De plus, la majuscule est manquante.
+Le titre de la définition est complètement invisible ainsi que les spécifications de la fonction.
+Un exemple est aussi manquant.
+
+Il m’est impossible de pouvoir donner un avis sur les tests et feed-back retournés par INGInious , une solution qui n’est pas du tout en rapport avec l’exercice demandé passe les tests et aucun feed-back n’est donné.
+
+Je ne peux pas donner un avis sur le second niveau d’analyse. Les fichiers nécessaires n’ont pas été transmis dans l’archive ZIP.
+
+EXERCICE 3:
+
+L’importation du fichier de soumission dans le fichier de test pour la correction est mauvaise. La solution fournie ne passe pas tous les tests. Après analyse du fichier de tests que vous avez transmis, on remarque une mauvaise importation. Vous n’importez pas la soumission de l’étudiant.
+
+L’énoncé est clair, correctement orthographié et grammaticalement correct.
+Pour vraiment chercher la petite bête, essayez d’agencer chaque étape de votre énoncé à la ligne pour un souci de lisibilité.
+
+Les spécifications sont absentes ainsi qu’un exemple (ici, l’exemple aurait vraiment été utile afin de bien s’assurer que ce que l’étudiant soumet correspond à ce que vous demandiez.).
+
+Les feed-backs retournés par INGInious sont complètement absents. En effet, dans votre fichier de tests, vous n’avez pas ajouté un « try ... exept » permettant d’afficher un message de retour à l’étudiant. Cette phrase est vraiment utile, car elle permet à l’étudiant de se corriger.
+
+Seconde partie d’analyse :
+
+Votre code est clair mais manque de commentaires. Il est donc difficile pour une personne extérieure à votre groupe de comprendre ce que vous avez fait.
+
+Les noms de variables sont un peu abstraits. À quoi fait référence l ? Pourquoi avoir introduit une variable n = 11 sachant que votre fonction « premier(n) » retourne déjà une valeur n = un nombre ? Cette variable n = 11 est inutile.
+
+Vos tests sont corrects et fonctionnels en dehors d’INGInious (mauvaise implémentation je suppose?). Quand je fais compiler votre fonction et vos tests sur un IDE tel que Thonny, ceux-ci fonctionnent, mais n’hésitez pas à en ajouter plus ! Un seul nombre est un peu faible pour un test, on n'est jamais à l’abri d’une exception.
+
+===========================================================================
+                        LINFO1002-2020 Review #64B
+---------------------------------------------------------------------------
+                         Paper #64: Projet 1 (B8)
+---------------------------------------------------------------------------
+
+        Les énoncés des exercices: 1. Contiennent de trop nombreuses
+                                        erreurs/imprécisions
+                Les tests unitaires: 2. Fonctionnent pour certains
+                                        exercices mais pas tous
+Le code python de la suite de tests: 1. Est incomplet ou illisible
+        La diversité des exercices: 1. Non, les trois exercices portent
+                                        sur la même partie de la matière
+              Appréciation globale: 1. Le travail global est insuffisant,
+                                        il mérite une cote inférieure à
+                                        10
+
+                 ===== Commentaires pour les auteurs =====
+
+exercice 1 (abs1, abs2 et abs3) : abs2 et abs3 n'ont pas l'air d'avoir des problèmes (énoncés clairs, tests fonctionnels et feedbacks complets). abs1 ne f
+
+exercice 2 (calcule average) : cet exercice accepte n'importe quoi(même si on ne retourne rien). L'énoncé est compréhensible mais pourrait être plus clair, il n'y a pas d'exemples.
+
+exercice 3 (trouver la valeur entière) : les tests de cet exercice renvoient de mauvaises réponses sauf si il y a une erreur de compréhension de l'énoncé de ma part. Est-ce normal qu'il y a un test pour lequel la fonction retourne une liste vide alors qu'elle est censée retourner un nombre ?
+
+===========================================================================
+                        LINFO1002-2020 Review #64C
+---------------------------------------------------------------------------
+                         Paper #64: Projet 1 (B8)
+---------------------------------------------------------------------------
+
+        Les énoncés des exercices: 1. Contiennent de trop nombreuses
+                                        erreurs/imprécisions
+                Les tests unitaires: 2. Fonctionnent pour certains
+                                        exercices mais pas tous
+Le code python de la suite de tests: 4. Est clair et compréhensible
+        La diversité des exercices: 1. Non, les trois exercices portent
+                                        sur la même partie de la matière
+              Appréciation globale: 1. Le travail global est insuffisant,
+                                        il mérite une cote inférieure à
+                                        10
+
+                 ===== Commentaires pour les auteurs =====
+
+Il y a 5 exercices dont 3 identiques.
+
+Ex. abs1, Abs2, abs3:
+Les énoncés sont clairs.
+abs1 ne fonctionne pas car, à mon avis, les fichier pour la correction n'ont pas été bien enregistrés.
+Les deux autres fonctionnent parfaitement.
+
+Ex. calcul average:
+Les consignes sont très claires quoiqu'il n'y a pas de mise en situation.
+En ce qui concerne les tests, je n'ai pas reçu ceux concernant cet exercice. Il doit y avoir un problème dans les tests reçus par inginious car peu importe ce que l'on entre dans la fonction, on obtient toujours 100%.
+
+Ex. le plus grand nombre de diviseurs:
+Les consignes ne sont pas très claires et comportent quelques fautes d'orthographe. Pour pouvoir réussir cet exercice, on doit remanier les consignes car les tests ne respectent pas les consignes donnés.
+En ce qui concerne les tests, ceux que j'ai reçus ne correspondent en rien aux feedbacks que j'ai pu recevoir en mettant des réponses erronées sur inginious.
+Dans les tests que j'ai reçus, il n'y a pas de commentaire, il n'y a pas de feedback juste des tests, la réponse de l'étudiant n'est pas importée donc ces tests ne corrigent pas du tout ce que l'étudiant a entré comme réponse sur inginious. Il faut aussi faire attention à donner de bons noms aux variables pour que leur fonction soit rapidement identifiable.
+En ce qui concerne les feedbacks, ils sont du même genre peu importe la faute faite.
+Je vous donnerais comme conseils d'être plus clairs dans vos consignes ou de coder vos tests en faisant bien attention à celles-ci car ils ne corrigent pas la même chose que ce que demandent les consignes.
+
+===========================================================================
+                        LINFO1002-2020 Review #64D
+---------------------------------------------------------------------------
+                         Paper #64: Projet 1 (B8)
+                          Reviewer: Olivier Bonaventure
+                                    <olivier.bonaventure@uclouvain.be>
+---------------------------------------------------------------------------
+
+        Les énoncés des exercices: 1. Contiennent de trop nombreuses
+                                        erreurs/imprécisions
+                Les tests unitaires: 1. Ne fonctionnent pour aucun des
+                                        exercices
+Le code python de la suite de tests: 1. Est incomplet ou illisible
+        La diversité des exercices: 1. Non, les trois exercices portent
+                                        sur la même partie de la matière
+              Appréciation globale: 1. Le travail global est insuffisant,
+                                        il mérite une cote inférieure à
+                                        10
+
+                 ===== Commentaires pour les auteurs =====
+
+Average
+
+Votre énoncé est incomplet, pas d'explication, pas de spécification, pas d'exemple.
+
+Il n'y a pas de suite de test
+
+Plus grand diviseur
+
+
+Vous cherchez le PGCD entre deux nombres. Dans ce cas, passez ces deux nombres comme arguments de la fonction.
+
+Il n'y a pas de suite de test
+
+===========================================================================
+                        LINFO1002-2020 Review #64E
+---------------------------------------------------------------------------
+                         Paper #64: Projet 1 (B8)
+---------------------------------------------------------------------------
+
+        Les énoncés des exercices: 1. Contiennent de trop nombreuses
+                                        erreurs/imprécisions
+                Les tests unitaires: 2. Fonctionnent pour certains
+                                        exercices mais pas tous
+Le code python de la suite de tests: 1. Est incomplet ou illisible
+        La diversité des exercices: 1. Non, les trois exercices portent
+                                        sur la même partie de la matière
+              Appréciation globale: 1. Le travail global est insuffisant,
+                                        il mérite une cote inférieure à
+                                        10
+
+                 ===== Commentaires pour les auteurs =====
+
+Pour la question "calcule average":
+Au niveau de l'utilisateur, l'énoncé n'est pas tout à fait clair. Il manque un contexte et un exemple qui pourrait aider l'étudiant à bien saisir le problème. La fonction à implémenter n'a pas de spécification. Malheureusement, peu importe le code soumis dans cet exercice, j'obtiens la note maximale. Ce qui veut dire que l'exercice et sa suite de test n'ont pas été finis, et ce qui a été fait n'est pas bien implémenté. 
+Au niveau de la suite de test, je ne sais rien dire vu qu'elle n'a pas été faite.
+
+
+
+
+Pour la question "Le plus grand nombre de diviseurs":
+Au niveau de l'utilisateur, l'énoncé est un peu ambigu à cause de l'explication en  français. Heureusement, on arrive à comprendre l'intention de l'auteur avec l'exemple donné et la spécification de la fonction qui est presque parfaite. (Dans les pre: Ce n'est pas précisé que 1 et le nombre analysé ne sont pas comptés comme des diviseurs de celui-ci. Dans les post, il est écrit "si les deux entiers sont plus grand que 0 retoun celui qui a le plus grand nombre de diviseur", en plus des erreurs d'orthographe, il y a une erreur dans le sens de la phrase: il faut retourner le plus grand nombre de diviseurs trouvés (d'après l'exemple donné) en non pas l'entier qui a le plus grand nombre de diviseurs.
+Si je respecte bien les spécifications, j'arrive à écrire ce code qui fonctionne:
+##############################
+liste_vide =[]
+if liste[0] == liste[1]:
+    return None
+elif liste[0] >0 and liste[1]>0:
+    a =0
+    b =0
+    for i in range(2,liste[0]):
+        if liste[0]%i ==0:
+            a+=1
+    for i in range(2,liste[1]):
+        if liste[1]%i ==0:
+            b+=1
+    if a>=b:
+        return a
+    return b
+
+elif liste[0] <0 and liste[1]<0:
+    return -1
+
+else:
+    return liste_vide
+################################
+[Submission #5e6528fa6779dd591b7737df]
+
+Les tests prennent bien en compte tous les cas indiqués dans la spécification, et retournent bien un message d’erreur en feedback qui aide l’élève à corriger son erreur.
+
+Au niveau de la suite de test, le code fourni ne correspond pas à l’exercice. En effet, il teste une fonction “premier()” qui n’a pas de lien avec l’exercice. Je ne peux donc pas donner un avis sur la suite de tests
+
+
+Il n'y a pas de troisième question que je peux analyser, le reste étant seulement des questions du tutoriel (valeur absolue).
+
+===========================================================================
+                        LINFO1002-2020 Review #64F
+---------------------------------------------------------------------------
+                         Paper #64: Projet 1 (B8)
+---------------------------------------------------------------------------
+
+        Les énoncés des exercices: 1. Contiennent de trop nombreuses
+                                        erreurs/imprécisions
+                Les tests unitaires: 2. Fonctionnent pour certains
+                                        exercices mais pas tous
+Le code python de la suite de tests: 1. Est incomplet ou illisible
+        La diversité des exercices: 2. Deux des trois exercices portent
+                                        sur la même partie de la matière
+              Appréciation globale: 1. Le travail global est insuffisant,
+                                        il mérite une cote inférieure à
+                                        10
+
+                 ===== Commentaires pour les auteurs =====
+
+Dans un premier lieu, je remarque qu'il y a 5 exercices sur inginious mais 3 d'entre eux sont des exercices sur la valeur absolue, j'imagine donc qu'ils ne font pas partie du projet. De plus, dans les deux qui restent j'ai accès au code seulement pour un seul des deux...
+
+Exercice 1, "calcule average":
+L'exercice est très simple, l'énoncé est peu clair et comporte beaucoup de fautes de français et peut importe la fonction soumise, la note de l'utilisateur est de 100%. De plus, je n'ai pas accès au code des tests dont je ne peut pas dire grand chose sur cet exercice...
+
+Exercice 2, "Le plus grand nombre de diviseurs":
+L'énoncé manque un peu de clarté et comporte beaucoup de fautes de français.
+Les tests ne sont pas très nombreux mais permettent de cibler plus ou moins les erreurs que l'utilisateur pourrait faire. Vous pourriez cependant ajouter du détail dans les feedbacks, expliquer à l'utilisateur ce qu'il peut changer ou ce à quoi il doit faire attention dans sa fonction.
+
+
+
+
+
+Explications détaillées des modifications apportées à notre Projet :
+En effet, Les reviews étaient au nombre de 3. Les trois exercices sur la valeur absolue ne faisaient pas partie du projet, c’était des exercices de démarrage pour avoir une petite idée de ce qu’on attendait de nous.
+Compte tenu de mal entendu et vu que ces trois ne font pas partie du projet final, voici l’amélioration faite sur les trois autres exercices sur base de ces reviews :
+
+Exercice 1 : Le plus long mot dans une chaine de caractère
+Comme nous avons pu implémenter que deux exercices différents à temps pour les reviews, on a implémenté le troisième après avoir reçu les reviews des étudiants pour nos deux autres exercices.
+Du coup nous nous sommes référés des reviews des deux autres exercices pour bien faire le troisième exercice. On a évité toutes les erreurs que nous avons fait dans les deux autres exercices en adaptant au troisième exercice les commentaires et critiques faits aux deux premiers.
+Dans celui-ci, l’énoncé est clair et nous avons mis des spécifications claires et un exemple.
+
+Exercice 2 : La fonction calcul average
+Certes il y avait des soucis sur l’exercice calcul average, nous l’avons-nous même constaté. Nous   étions en train de travailler pour y remédier à ça et faire tous les tests avant le deadline. Malheureusement, le jour de la remise (deadline), nous n’avions pas encore fini. Du coup on a dû soumettre ceux qu’on a déjà fini pour avoir plus d’indications sur où était le problème afin de pouvoir le corriger pour la remise finale. 
+Du coup en combinant les reviews et solutions d’autres étudiants sur les problèmes liés aux exercices et les solutions qu’on proposait, ça nous a permis d’améliorer encore plus notre travail. On a résolu toutes les erreurs et avons maintenant un code et des tests qui fonctionnent avec un feedback assez clair pour faciliter la compréhension de l’exercice à l’utilisateur.
+Il y’a eu une amélioration du titre qui n’était pas assez clair, il y’a un titre de définition de la fonction qui permettra de savoir à l’utilisateur qu’il ne doit pas remettre une définition de fonction sans quoi il aura une erreur.
+Quand un utilisateur implémentait l’exercice et mettait n’importe quoi ou quelque chose qui n’avait rien à voir avec ce qui était demandé, il obtenait quand même la note maximale. Le problème était situé au niveau des tests qu’on a pu résoudre. 
+Concernant l’énoncé, on a aussi dû l’améliorer avec des explications assez claires, des spécifications et un exemple.
+En fin, pour cet exercice on a dû opter pour un exercice pas trop compliquer, que des étudiants de Bac1 n’auront pas trop du mal à comprendre et à faire.
+
+Exercice 3 : Le plus grand nombre de diviseurs
+Dans les reviews qu’on a reçu, il y avait une remarque qui est souvent revenu, celle-ci est le fait que les consignes n’étaient pas très claires, donc nous avons pu améliorer tout ça. Les consignes sont maintenant lisibles et parfaitement claires afin de faciliter la bonne compréhension de l’exercice à l’utilisateur.
+En effet il n’y avait pas de Feed-Back ou les tests ne fonctionnaient pas. Cela est dû à une mauvaise importation des fichiers. Tous ces problèmes ont été corrigés et on a même rajouter un feedback qui était absent lors de la première implémentation avant les reviews qui va permettre à l’étudiant de se corriger en cas d’erreur.
+Nous avons aussi rajouté des commentaires pour faciliter la bonne compréhension du code.
+Les tests ne fonctionnaient que sur l’IDE (Thonny par exemple) et pas sur Inginious. Cela était dû à une mauvaise implémentation des ceux-ci et notamment une mauvaise importation des fichiers. Nous avons donc pu corriger tout ça, les tests fonctionnent maintenant à merveille.
+Concernant les arguments de la fonction, on aurait dû mettre les deux valeurs en argument mais nous avons mis une liste contenant les deux entiers en arguments car nous avions un message d’erreur quand on passait ces deux valeurs en paramètre. Sûrement parce qu’on n’a pas su comment faire mais comme ça fonctionnait avec une liste on s’est dit de l’implémenter comme ça (avec une liste en paramètre).
+Les spécifications ont été retravaillé pour être plus claires et plus simple. Par exemple lors de l’implémentation, au niveau des spécifications nous n’avions pas mis que 1 et le nombre analyser ne font pas partie des diviseurs de celui-ci, ce qui était quand même important à savoir pour l’utilisateur.
+
+Conclusion :
+Nous avons pris en compte des différentes critiques et suggestions qui sont dans les reviews pour améliorer les trois exercices.
+

@@ -1,0 +1,2 @@
+Cette mission s'est bien passée , je l'ai fini dans les temps. Ce que je n'ai pas pu faire, 
+c'est quand j'ai voulu étendre mon code pour n'afficher que les solution qui n'ont de diviseurs en communs que 1.

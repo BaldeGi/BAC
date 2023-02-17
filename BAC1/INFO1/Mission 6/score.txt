@@ -1,0 +1,5 @@
+equipe1
+equipe2
+equipe1 150
+equipe1 0
+equipe2 15

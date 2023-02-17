@@ -1,0 +1,61 @@
+_id: 5e2f04c69563aa9836b7b2e5
+archive: 5e2f04c89563aa9836b7b2e6
+courseid: LINFO1002-P1
+custom: {}
+grade: 0.0
+input:
+    '@lang': en
+    '@random': []
+    '@state': ''
+    '@username': mpiraux
+    q1: median = 42
+problems: {}
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: |+
+    ======================================================================
+    FAIL: test_median (TestMedian.TestMedian)
+    ----------------------------------------------------------------------
+    Traceback (most recent call last):
+      File "./src/TestMedian.py", line 21, in test_median
+    AssertionError: 75 != 42 : The median of [75, 81, 58] is 75 and you returned 42.
+
+    ======================================================================
+    FAIL: test_specific_median (TestMedian.TestMedian)
+    ----------------------------------------------------------------------
+    Traceback (most recent call last):
+      File "./src/TestMedian.py", line 30, in test_specific_median
+    AssertionError: 60 != 42 : The median of [60, 61, 59] is 60 and you returned 42.
+
+    ----------------------------------------------------------------------
+    Ran 2 tests in 0.000s
+
+    FAILED (failures=2)
+
+submitted_on: 2020-01-27 16:41:58.898000
+taskid: Median
+tests: {}
+text: |+
+    It seems that you have made mistakes in your code…
+
+
+
+    .. code-block:: python
+
+        Failed test:
+        75 != 42 : The median of [75, 81, 58] is 75 and you returned 42.
+
+        Failed test:
+        60 != 42 : The median of [60, 61, 59] is 60 and you returned 42.
+
+        ----------------------------------------------------------------------
+        Ran 2 tests in 0.000s
+
+        FAILED (failures=2)
+
+
+username:
+- mpiraux

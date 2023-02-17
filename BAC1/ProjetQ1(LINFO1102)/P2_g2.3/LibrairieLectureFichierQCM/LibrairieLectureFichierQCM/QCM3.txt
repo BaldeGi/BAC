@@ -1,0 +1,26 @@
+Q|Quelle est la réponse de l'univers ?
+A|42|V
+A|42|V
+A|42|V
+A|42|V
+A|42|V
+A|42|V
+A|42|V
+A|42|V
+
+Q|Trouvez-vous le cours de projet utile ? (Attention, une seule réponse valable)
+A|oui|V
+A|non|X
+
+Q|Quel note attribuez-vous à mon programme ? (une seule réponse valable)
+A|1/10|X
+A|2/10|X
+A|3/10|X
+A|4/10|X
+A|5/10|X
+A|6/10|X
+A|7/10|X
+A|8/10|X
+A|9/10|X
+A|10/10|V
+

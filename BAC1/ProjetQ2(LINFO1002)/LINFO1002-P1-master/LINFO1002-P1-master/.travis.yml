@@ -1,0 +1,14 @@
+language: python
+python:
+  - '3.6'
+services:
+  - mongodb
+  - docker
+install:
+  - pip3 install git+https://github.com/UCL-INGI/INGInious@v0.6
+  - docker pull ingi/inginious-c-base
+  - docker pull ingi/inginious-c-default
+before_script:
+  - ./.travis_setup.py LINFO1002-P1
+script:
+  - inginious-autotest . LINFO1002-P1 -l

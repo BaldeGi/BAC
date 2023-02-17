@@ -1,0 +1,44 @@
+accessible: true
+author: Diallo Ibrahima
+categories: []
+contact_url: ''
+context: |+
+    Une entreprise pétrolière aimerait calculer la moyenne de leurs barils de pétroles . Vous êtes inviter à implémenter une fonction Average leur permettant de faire ce calcul.
+
+environment_id: pyjavacpp
+environment_parameters:
+    limits:
+        memory: '100'
+        hard_time: ''
+        time: '30'
+    run_cmd: ''
+environment_type: docker
+evaluate: best
+file: ''
+groups: false
+input_random: '0'
+name: Calcul Average
+network_grading: false
+order: 1
+problems:
+    q1:
+        language: python
+        name: ''
+        header: |-
+            .. code-block:: python
+
+                Pour cette liste de mesures données [10,5,6,14] , la réponse renvoyée est de: 8.5
+            .. code-block:: python
+
+                def average(l):
+                    """"
+                    @pre:La fonction prend une liste en paramètre contenant la mesure en litre des différents barils de pétroles.
+                    @post: Retourne la moyenne des barils d'eau de l'entreprise.
+                    """
+        default: ''
+        type: code
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+weight: 1.0

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Chargement de la librairie Javascript à utiliser -->
+    <!-- depuis Internet -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+    <!-- Localement -->
+    <title>Un graphique en batonets</title>
+    <h1>
+        Le graphe montre les étudiants qui ont réussi la tache en une soumission et ceux l'ont réussi en plusieurs
+    </h1>
+</head>
+<body>
+    <div style="width: auto ">
+    <canvas id="graphique" width="300px" height="100px"></canvas>
+    </div>
+
+    <script>
+        Chart.defaults.global.title.display=true;
+        Chart.defaults.global.title.text="Visualisation graphique"
+    </script>
+
+    <script>
+        // l'identifiant est celui du canevas
+        var ctx = document.getElementById('graphique').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: {{noms | safe}},
+                datasets: [{
+                    label: '100 prémières soumissions réussi ou raté de la tâche "Fibonacci" du cours LSINF1101-PYTHON',
+                    data: {{notes | safe}},
+                    backgroundColor: "rgba(153,255,51,0.6)"
+
+                }]
+            }
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Réussite par tâche</title>
+<ul>
+    <li><a href="{{ url_for('index') }}">Acceuil</a></li>
+    <li><a href="{{ url_for('p2') }}">Nombre de réussites par rapport aux nombre d'essais pour le cour LSINF1101-PYTHON</a></li>
+    <li><a href="{{ url_for('p1') }}">Nombre de tâches réussies par cours</a></li>
+</ul>
+{% endblock %}
+
+{% block body %}
+<canvas id="graphique" width="100px" height="50px"></canvas>
+    <script>
+            Chart.defaults.global.title.display=true
+            Chart.defaults.global.title.text="Note moyenne par tâche"
+    </script>
+    <script>
+        // l'identifiant est celui du canevas
+        var ctx = document.getElementById('graphique').getContext('2d');
+        // création du graphique
+        var myChart = new Chart(ctx, {
+        type: 'bar',   // le type du graphique
+        data: {       // les données
+            labels: {{tasks | safe}},
+            datasets: [{
+                        label: 'note moyenne',
+                        data: {{notes | safe}},
+                        backgroundColor: "rgba(80,0,255,0.2)"
+                       }]
+               }
+             }
+        );
+    </script>
+{% endblock %}

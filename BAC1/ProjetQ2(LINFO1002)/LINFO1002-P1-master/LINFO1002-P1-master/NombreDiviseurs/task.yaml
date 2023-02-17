@@ -1,0 +1,48 @@
+accessible: true
+author: Balde Lamarana
+categories: []
+contact_url: ''
+context: Ecrivez une fonction qui retourne le plus grand nombre de diviseurs pour
+    deux entier dans une liste.
+environment_id: pyjavacpp
+environment_parameters:
+    limits:
+        memory: '100'
+        hard_time: ''
+        time: '30'
+    run_cmd: ''
+environment_type: docker
+evaluate: best
+file: ''
+groups: false
+input_random: '0'
+name: Le plus grand nombre de diviseurs
+network_grading: false
+order: 3
+problems:
+    P:
+        default: ''
+        type: code
+        header: |-
+            .. code-block:: python
+
+                Par exemple pour cette liste ([14,24]): la réponse retourner doit être 6
+
+            .. code-block:: python
+
+                def divisor(liste):
+                    """
+                    @pre: la fonction prend une liste contenant deux entiers en paramètre
+                    @post: si les deux entier sont égaux , retourne None
+                           si les deux entiers sont plus grand que 0 retoune le plus grand nombres de diviseurs trouvées entre les deux entiers,
+                           si les deux entiers sont plus petit que 0 , retourne -1
+                           sinon retourne une liste vide
+
+                    """
+        name: TheDivisors
+        language: python
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+weight: 1.0

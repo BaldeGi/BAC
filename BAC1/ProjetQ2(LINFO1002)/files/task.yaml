@@ -1,0 +1,31 @@
+accessible: true
+author: 'Balde Lamarana '
+categories: []
+contact_url: ''
+context: Une fonction permettant d'écrire la valeur absolue d'un nombre.
+environment_id: pyjavacpp
+environment_parameters:
+    limits:
+        memory: '100'
+        hard_time: ''
+        time: '30'
+    run_cmd: ''
+environment_type: docker
+evaluate: best
+file: ''
+groups: false
+input_random: '0'
+name: Abs2
+network_grading: false
+problems:
+    Q1:
+        name: Calcul de la valeur absolue
+        default: ''
+        type: code
+        language: Python
+        header: Calculer la valeur absolue d'un entier.
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+weight: 1.0

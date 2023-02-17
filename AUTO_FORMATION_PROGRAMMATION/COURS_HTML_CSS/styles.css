@@ -1,0 +1,159 @@
+h1 {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; /* mettre en gras */
+    
+}
+
+section div h1 {
+    border: 2px solid black;
+}
+
+/* Pour appliquer le css sur une partie spécifique sans marquer toutes les imbrication*/
+/* On fait un classe dans le html*/
+
+.QR {
+    font-size: 30px;
+}
+
+/* On applique un changement sur un titre h1 sans que ce ne soit aplliquer à tous les autres
+et même si on a déjà appliquer des changement sur tous les titre avec un h1 general.*/
+
+#unique{
+    font-size: 25px;
+}
+
+/* Les pseudos-Classes*/
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color:green;
+}
+
+a:hover{
+    color:blue;
+}
+
+/* Changer juste le premier paragraphe de plusieurs paragraphe qui se suivent 
+ou changer la première liste de plusieurs listes qui se suivent (pseudo-classe aussi)*/
+
+li:first-child{
+    font-size: 25px;
+}
+
+/*  propriété display qu'on donne à nos éléments pour qu’ils 
+s’affichent sur la même ligne*/
+p{
+    display: inline-block;
+    width: 200px;
+}
+
+/* Pour les marges*/
+.blue{
+    background-color: blue;
+    width: 400px;
+    height: 500px;
+    margin: 100px auto;  /* auto c'est pour mettre juste au milieu*/
+
+}
+
+/*Pour les marges et bordures*/
+
+.red{
+    background-color: red;
+    width: 400px;
+    height: 500px;
+    margin: 100px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: grey;
+    border: 10px solid grey  /* Raccourci*/
+}
+
+/* Le padding ( ce qui se trouve entre la bordure et l'interieur*/
+
+.blue{
+    padding: 20px;
+}
+
+
+/*Les float*/
+
+.left{
+    height: 450px;
+    width: 200px;
+    background-color: blue;
+    float: left;
+}
+
+.right{
+    height: 500px;
+    width: 150px;
+    background-color: red;
+    float: right;
+
+}
+
+.header{
+    height: 100px;
+    background-color: yellow;
+   
+}
+
+.footer{
+    height: 100px;
+    background-color: grey;
+    clear: both;
+}
+
+/* Propriété position*/
+
+.gauche{
+    height: 450px;
+    width: 200px;
+    background-color: blue;
+    position: static;  /* ne fais rien le static tout seul comme ça*/
+    
+}
+
+.droite{
+    height: 500px;
+    width: 150px;
+    background-color: red;
+    position: relative; /* ne fais rien tout seul comme ça le relative */
+    top: 100px;
+    left: 300px;   
+
+}
+
+/*Position absolute permet de placer les div en fonctions de leurs parents
+si la position de leurs parents n'est pas static*/
+
+.haut{
+    height: 450px;
+    width: 200px;
+    background-color: blue;
+    
+   
+    
+}
+
+.bas{
+    height: 500px;
+    width: 150px;
+    background-color: red;
+    position: absolute; 
+    top: 100px;
+    left: 100px;   
+
+}
+
+#container{
+    position: relative;  
+    margin-top: 200px;
+    margin-left: 200px;
+}
+

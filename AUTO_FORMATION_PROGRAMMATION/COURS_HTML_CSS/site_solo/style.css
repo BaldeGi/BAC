@@ -1,0 +1,363 @@
+
+/* General*/
+
+body
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+a
+{
+    text-decoration: none;
+    color:black;
+}
+
+h1
+{
+    font-size: 45px;
+    text-align: center;
+    margin: 0 ;
+    font-weight: bold;
+    color: black;
+    font-weight: normal;
+}
+
+h4
+{
+    margin: 0 ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
+
+/* header*/
+
+header
+{
+    background: url('image/image-2.png') no-repeat left  ;
+    margin-left: 100px;
+    background-color: white;
+    position: fixed;
+    width: 1170px;
+    height: 100px;
+}
+
+.commun
+{
+    padding-top: 40px; 
+}
+
+.commun ul
+{
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.commun ul li 
+{
+   
+    color: black;
+    text-transform: uppercase;
+}
+
+
+.commun li
+{
+    list-style: none;
+    float:right;
+    margin-left:40px;  
+  
+}
+
+
+#info
+{
+    padding-right: 140px;
+    
+}
+
+
+
+#contact li
+{
+    display: inline-block;
+    margin-right: 20px;   
+}
+
+#contact ul
+{
+    margin: 10px 0 0 200px;
+    
+}
+
+nav ul
+{
+    width: auto;
+}
+
+/* Main */
+
+#img
+{
+    margin: 0 110px;
+    
+}
+
+#img article
+{
+    height: 800px;
+}
+
+#main #img h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    padding-top: 250px;
+}
+
+
+#lien
+{
+    padding: 200px 0;
+}
+
+#lien a
+{
+   height: 300px;
+   color:white; 
+   padding-left: 380px;
+
+}
+
+#article
+{
+    margin:0 180px;
+    background-color:rgba(220,220,220,0.5);
+    margin-top: 100px;
+    padding: 10px 10px;
+    
+}
+
+article h1
+{
+    font-size: 60px;
+}
+
+.cours-1
+{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+}
+
+
+/* Main 2*/
+
+#middle
+{
+    height: 2200px;
+    margin: 30px 110px;
+    background-color:rgba(220,220,220,0.5);
+    color: rgba(0,0,0,0.4);
+    padding: 60px 0;
+}
+
+#image
+{
+    padding: 50px 100px;
+    margin-bottom: 100px;
+}
+
+#image a
+{
+    display: inline-block;
+    text-align: center;
+    margin:10px 10px;
+}
+
+h5
+{
+    text-align: center;
+    font-size: 20px;
+    padding: 80px 0 0 0;
+}
+
+#main-2 #middle #image
+{
+    margin: 0;
+    padding-bottom: 0;
+    
+    
+}
+
+
+
+h5
+{
+    width: 250px;
+    padding-bottom:130px;
+    
+    
+}
+
+#im-2
+{
+    margin:100px 0 0 5px;
+    
+}
+
+#im-2 .b
+{
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom:20px;
+}
+
+
+article h2 
+{
+   text-align: center;
+   text-transform: capitalize;
+}
+
+
+#im-3
+{
+    background-color: white;
+}
+
+#im-3 div
+{
+    display:inline-block;
+    margin:15px 15px 0 0;
+    padding-bottom: 30px;
+    
+    
+    
+}
+
+#im-3 h2
+{
+    margin:7px 0;
+    padding-top: 20px;
+    color: black;
+}
+
+#im-3 h4
+{
+    padding-top: 70px;
+    
+}
+
+.im-4
+{
+    margin:40px 0 0  100px;
+}
+
+.im-4 div
+{
+    display: inline-block;
+    margin: 0 80px 0 0;
+    
+}
+
+.im-4 div h3 
+{
+    font-size: 27px;
+    color: black;
+}
+
+.im-4 p
+{
+    font-size: 15px;
+}
+
+.im-4 div input
+{
+    padding: 10px;
+    font-size: 24px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+
+.im-4 div p a
+{
+    padding: 10px;
+    font-size: 24px;
+    margin-right: 20px;
+    border: 3px solid rgba(0,0,0,1);
+    border-radius: 3px;
+}
+
+#unique
+{
+    padding-bottom: 10px;
+}
+
+#logo
+{
+    margin: 100px 10px;
+    width: 800px;
+}
+
+#logo a
+{
+    margin-right: 20px;
+    
+}
+
+.f
+{
+    margin-left:250px;
+}
+
+#logo p
+{
+    text-align: center;
+    margin:20px 0;
+}
+
+#logo .conditions
+{
+    padding: 0 0 0 60px;
+    margin:20px 0;
+}
+
+#foot
+{
+    padding:30px 60px 20px 0;
+    position:fixed;
+    background:white;
+    bottom:0;
+    width:100%;
+} 
+
+#foot p a
+{
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#foot div p
+{
+    display: inline-block;
+    margin: 0 0 0 50px;
+}
+
+
+#foot div 
+{
+    text-align: center;
+    padding-right: 50px;
+}
+
+
+
+
+

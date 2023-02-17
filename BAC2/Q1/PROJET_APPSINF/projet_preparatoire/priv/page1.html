@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/sytle/style.css">
+    <title>Page principale</title>
+</head>
+<body>
+    <header class="tete">
+        <ul>
+            <li><h1><img src="image/bxl.png" alt=""><br>
+            Ville du Bruxelles</li></h1>
+            <li><input id="post" type="text" placeholder="Champ de recherche"></li>
+            <li><p><h1> {{utilisateur}}</h1></p></li>
+        </ul>
+    </header>
+    
+    <section>
+        <div id="jour">
+            <ul>
+                <li>
+                   <form action="lien" method="GET"><p> <input type="submit" value="Lien pour ajouter un incident" name="Lien_pour_ajouter_un_incident"></p></form>
+                </li>
+                <li id="j1">
+                    <p1>Jour actuel: <script type="text/javascript">
+                        var date=new Date();
+                        document.write(date.getDate()+"/"+date.getMonth()+"/"+date.getFullYear());
+                    </script></p1>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+   
+    <section>
+        <div class="position">
+            <table id="tab">
+                <tr>
+                    <th>Description</th>
+                    <th>Adresse</th>
+                    <th>Date</th>
+                </tr>
+                <tr>
+                    <td>{{description}}</td>
+                    <td>{{adresse}}</td>
+                    <td>{{date}}</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+   
+
+    </section>
+
+</body>
+</html>
+
+
